@@ -1,0 +1,60 @@
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 16px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 30px;
+}
+
+.Navigation a{
+    color: #000;
+    margin-right: 48px;
+    text-decoration: none;
+}
+
+.Navigation a:first-child{
+    border-bottom: 1px solid gray;
+}
+
+.Header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-info img{
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.Header-form{
+    position: relative;
+    margin-right: 24px;
+}
+
+.Header-form input{
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    padding: 7px 20px;
+    min-width: 200px;
+}
+
+.Header-form img{
+    position: absolute;
+    top: 5px;   
+    right: 7px;
+    cursor: pointer;
+}
+
+.Header-cart{
+    position: relative;
+}
+
+.Header-cart-items{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    color: gray;
+}

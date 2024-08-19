@@ -1,0 +1,153 @@
+
+.Cart-page{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+/* Car-items */
+
+.Cart-items{
+    border: 1px solid green;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+
+/* Cart item */
+
+.Cart-item{
+    display: flex;
+    margin: 15px 0;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.Cart-item img{
+    max-width: 120px;
+    object-fit: contain;
+}
+
+.Cart-item .Shipping{
+    color: green;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.Cart-item-info{
+    padding-left: 25px;
+}
+
+.Cart-item-info h3{
+    color: gray;
+    letter-spacing: 1.1px;
+    font-size: 16px;
+    max-width: 85%;
+}
+
+.Cart-item-info h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.Amount{
+    display: flex;
+}
+
+.Amount-text{
+    padding-right: 15px;
+    color: gray;
+}
+
+.Buttons-amount{
+    display: flex;
+    align-items: center;
+}
+
+.Buttons-amount p{
+    padding: 0 8px;
+    font-weight: 600;
+}
+
+.Buttons-amount button{
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+
+
+/* Cart-checkout */
+
+.Cart-checkout{
+    padding: 10px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.Cart-checkout h2{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.Cart-checkout h3{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.Cart-controls{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.Cart-controls img{
+    cursor: pointer;
+}
+
+/* Subtotal */
+
+.Subtotal{
+    display: flex;
+    flex-direction: column;
+}
+
+.Subtotal .Saved-sum{
+    padding: 10px 0;
+}
+
+.Subtotal .Total-sum{
+    padding-bottom: 15px;
+}
+
+.Subtotal span{
+    position: absolute;
+    right: 15px;
+}
+
+.Total-sum-span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Subtotal button{
+    padding: 10px 0;
+    flex-grow: 1;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Subtotal button:hover{
+    background-color: transparent;
+    color: #000;
+}
