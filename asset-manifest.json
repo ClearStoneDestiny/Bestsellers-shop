@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Bestsellers-shop/static/css/main.33add3be.css",
+    "main.js": "/Bestsellers-shop/static/js/main.810b481e.js",
+    "static/media/logo.svg": "/Bestsellers-shop/static/media/logo.8ca29947db1c675723912c991d9dde71.svg",
+    "static/media/cart.svg": "/Bestsellers-shop/static/media/cart.b0666b330528944c03542529c2187d8e.svg",
+    "index.html": "/Bestsellers-shop/index.html",
+    "static/media/icon-copyright.svg": "/Bestsellers-shop/static/media/icon-copyright.2fc46bbeb3f96016be2a1ee6e64cfd1e.svg",
+    "static/media/trash-can.svg": "/Bestsellers-shop/static/media/trash-can.c73b5e3ceeb3cf0b27211a201af6f881.svg",
+    "static/media/search.svg": "/Bestsellers-shop/static/media/search.fd8a2a65b51e80158429d21ad79efb4b.svg",
+    "static/media/wishlist.svg": "/Bestsellers-shop/static/media/wishlist.88310804f5ba96ad1f1f5bc70bf96a4b.svg",
+    "main.33add3be.css.map": "/Bestsellers-shop/static/css/main.33add3be.css.map",
+    "main.810b481e.js.map": "/Bestsellers-shop/static/js/main.810b481e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33add3be.css",
+    "static/js/main.810b481e.js"
+  ]
+}
