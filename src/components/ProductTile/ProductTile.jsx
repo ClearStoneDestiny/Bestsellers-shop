@@ -1,9 +1,8 @@
 import './ProductTile.css';
-// import cart from '../../assets/icons/cart.svg';
 import wishlist from '../../assets/icons/wishlist.svg';
 import {useNavigate} from "react-router-dom";
 
-function ProductTile({product}){
+function ProductTile({product, setProductsInWish}){
 
     let navigate = useNavigate();
 
@@ -11,12 +10,18 @@ function ProductTile({product}){
         navigate(`/product/${product.id}`);
     }
 
+    function addToWishList(){
+        setProductsInWish(prevProducts => {
+            const updatedWishlist = [...prevProducts, product];
+            return updatedWishlist;
+        })
+    }
+
     return(
                 <div className='Product-tile' key={product.id}>
                     <div className='Product-img'>
                         <img className='Main-img' onClick={showProductPage} src={product.image} alt={product.title} />
-                        <img className='Product-wishlist' src={wishlist} alt="wishlist" />
-                        {/* <img className='Product-cart' src={cart} alt="cart" /> */}
+                        <img className='Product-wishlist' onClick={() => addToWishList()} src={wishlist} alt="wishlist" />
                     </div>
                     <div className='Product-info'>
                         <h3 onClick={showProductPage}>{product.title}</h3>

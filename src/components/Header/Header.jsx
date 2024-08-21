@@ -5,7 +5,7 @@ import cart from '../../assets/icons/cart.svg';
 import wishlist from '../../assets/icons/wishlist.svg';
 import {Link} from "react-router-dom";
 
-function Header({productsInCart}){
+function Header({productsInCart, productsInWish}){
 
     return (
             <header className='Header'>
@@ -23,7 +23,14 @@ function Header({productsInCart}){
                         <input name="query" placeholder='What are you looking for?'/>
                         <img src={search} alt="search" />
                     </form>
-                    <img src={wishlist} alt="wishlist" />
+                    
+                    <Link to='/wishlist'>
+                        <div className="HeaderWish-list">
+                            <img src={wishlist} alt="wishlist" />
+                            <p className='Header-wishlist-items'>{productsInWish.length}</p>
+                        </div>
+                    </Link>
+                    
                     <Link to='/cart'>
                         <div className='Header-cart'>
                             <img src={cart} alt="cart" />

@@ -21,7 +21,7 @@
 .Header-info{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .Header-info img{
@@ -48,13 +48,21 @@
     cursor: pointer;
 }
 
-.Header-cart{
+.Header-cart,
+.HeaderWish-list{
     position: relative;
 }
 
 .Header-cart-items{
     position: absolute;
     top: -10px;
-    right: 0;
+    right: 0px;
+    color: gray;
+}
+
+.Header-wishlist-items{
+    position: absolute;
+    top: -10px;
+    right: 5px;
     color: gray;
 }

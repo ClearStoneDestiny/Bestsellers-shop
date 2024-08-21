@@ -1,0 +1,93 @@
+
+.Review{
+    padding: 15px 10px 20px;
+}
+
+.Review h2,
+.Review h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Review-info{
+    /* border: 1px solid blue; */
+    padding: 5px 8px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid lightgray;
+}
+
+.Review-info .Author{
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.Review-info .Comment{
+    letter-spacing: 1.1px;
+    color: gray;
+    padding: 8px 0;
+    font-weight: 500;
+}
+
+.Review-info .Date{
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.Feedback{
+    display: flex;
+    padding: 10px 0 20px;
+}
+
+.Feedback input,
+.Feedback textarea{
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.Feedback input::placeholder,
+.Feedback textarea::placeholder{
+    font-size: 18px;
+   
+}
+
+.Feedback textarea{
+    width: 100%;
+    resize: none;
+}
+
+.Feedback button{
+    background-color: #000;
+    transition: background-color .4s ease;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Feedback button:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+.Base-review{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    padding: 5px 0 20px;
+}
+
+.Review-message{
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#Review-not-filled{
+    border: 1px solid red;   
+}
