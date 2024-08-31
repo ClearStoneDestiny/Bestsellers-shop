@@ -1,1 +1,1 @@
-Added wishlist, preloader, reviews section, updated trashcan
+A regular store website with goods, as data about goods was used API fake store, in this project there is a main page with goods, each product also has its own separate page with information, goods can be added and removed from the basket and wish list, also each good have review section for customer comments
